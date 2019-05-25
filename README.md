@@ -1,21 +1,14 @@
-# Trabajo en Equipo
+# Trabajo-Colaborativo
 
-# [Data Table](https://github.com/danjrosales/data/tree/master/datatable) 
+1. Clonar el repositorio: ```git clone https://github.com/BlackrockDigital/startbootstrap-business-frontpage.git```
+2. Dividir el trabajo en los integrantes del equipo
+3. Cada integrante creará una rama(branch) donde realizará sus cambios
+4. Realizar las peticiones de actualziación(pull request)
+5. Juntar su trabajo en la rama principal(merge)
 
-* Crear apartado clientes en página de consultora
-* Editar [array.txt](https://github.com/danjrosales/data/blob/master/datatable/array.txt) con los datos de sus clientes
-* Eliminar sueldo
-* Embeber tabla en sitio web de la consultora en apartado "Equipo de trabajo"
+## Enlaces
 
-# [Data](https://github.com/danjrosales/data/tree/master/data)
-
-* Editar [index.html](https://github.com/danjrosales/data/blob/master/data/index.html) y agregar datos del equipo de trabajo
-  - Imágen
-  - Nombre Completo
-  - Email
-  - Usuario de Github)
-* Recorrer el JSON y mostrar la información en la página de la consultora: (e.g)
-
-![team](https://github.com/danjrosales/data/blob/master/img/team.png)
-
-# Por último subir todos los cambios al repositorio que contiene la página de la consultora.
+- GitHub Guide: https://guides.github.com/activities/hello-world/
+- GitHub Learning Lab: https://lab.github.com/courses
+- GitHub Desktop: https://desktop.github.com/
+- Atom: https://atom.io/

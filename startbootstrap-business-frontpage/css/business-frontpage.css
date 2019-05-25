@@ -71,3 +71,27 @@ galeria {
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.navbar li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}

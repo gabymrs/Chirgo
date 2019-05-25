@@ -76,7 +76,7 @@ galeria {
 
 .submenu{
 	position: absolute;
-	background: #333333;
+	background: #0AB4B1;
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
@@ -87,7 +87,6 @@ galeria {
 	display: block;
 	padding: 15px;
 	color: #fff;
-	font-family: 'Open sans';
 	text-decoration: none;
 }
 

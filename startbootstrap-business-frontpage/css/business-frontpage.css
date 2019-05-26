@@ -109,3 +109,20 @@ galeria {
   padding-right: 3rem;
   background-color:rgba(247,79,101,1)
   }
+
+  .cta .cta-inner{
+  position:relative;
+  padding:3rem;
+  margin:.7rem;
+  background-color:rgba(255,255,255,1)
+  }
+
+.cta .cta-inner:before{
+  border-radius:.5rem;
+  content:'';
+  position:absolute;
+  top:-.5rem;
+  bottom:-.5rem;left:-.5rem;
+  right:-.5rem;
+  border:.25rem solid rgba(247,79,101,1)
+  }

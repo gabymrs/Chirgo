@@ -135,12 +135,6 @@ galeria {
     border: 1px solid rgba(0, 0, 0, 0.5);
   }
 
-  h2{
-    text-align: center;
-    margin-bottom: 20px;
-    color: rgba(0, 0, 0, 0.5);
-  }
-
 input{
   display: block;
   padding: 4px;

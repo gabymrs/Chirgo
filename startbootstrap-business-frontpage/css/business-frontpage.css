@@ -128,10 +128,10 @@ galeria {
   /*Formulario*/
   form{
     margin: auto;
-    width: 58%;
+    width: 40%;
     max-width: 400px;
     background: #D6F8F7;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
   }
 
@@ -140,6 +140,15 @@ galeria {
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.5);
   }
+
+input{
+  display: block;
+  padding: 4px;
+  width: 100%;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
 
   /*input[type="submit"]{
     background: linear-gradient(#FFDA63, #FFB940);
@@ -158,9 +167,9 @@ galeria {
     transform: scale(0.95);
   }
 
-  @media (max-width:768px){
+  @media (max-width:700px){
     form{
-      width: 75%;
+      width: 100%;
     }
   }
   .col-centrada{

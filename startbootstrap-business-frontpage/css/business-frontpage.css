@@ -105,15 +105,13 @@ galeria {
 .cta{
   padding-top:3rem;
   padding-bottom:3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
   background-color:rgba(247,79,101,1)
   }
 
   .cta .cta-inner{
   position:relative;
-  padding:3rem;
-  margin:.7rem;
+  padding:4rem;
+  margin:.8rem;
   background-color:rgba(255,255,255,1)
   }
 
@@ -126,3 +124,8 @@ galeria {
   right:-.5rem;
   border:.25rem solid rgba(247,79,101,1)
   }
+
+  .col-centrada{
+    float: none;
+    margin: 0 auto;
+}

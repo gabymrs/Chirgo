@@ -95,3 +95,17 @@ galeria {
 	visibility: visible;
 	opacity: 1;
 }
+/*Section */
+.page-section{
+  margin-top:2rem;
+  margin-bottom:2rem;
+
+}
+
+.cta{
+  padding-top:3rem;
+  padding-bottom:3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color:rgba(247,79,101,1)
+  }

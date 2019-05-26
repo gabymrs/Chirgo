@@ -126,3 +126,42 @@ galeria {
   right:-.5rem;
   border:.25rem solid rgba(247,79,101,1)
   }
+
+  /*Formulario*/
+  form{
+    margin: auto;
+    width: 58%;
+    max-width: 400px;
+    background: #D6F8F7;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  /*input[type="submit"]{
+    background: linear-gradient(#FFDA63, #FFB940);
+    border: 0;
+    color: blue;
+    opacity: 0.8;
+    border-radius: 25px;
+    margin-bottom: 0;
+  }*/
+
+  input[type="submit"]:hoover {
+    opacity: 1;
+  }
+
+  input[type="submit"]:active{
+    transform: scale(0.95);
+  }
+
+  @media (max-width:768px){
+    form{
+      width: 75%;
+    }
+  }

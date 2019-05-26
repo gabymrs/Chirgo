@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Cliente</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel-"stylesheet" href="business-frontpage.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+   <style>
+        h2,address,p,a{
+           font-family: 'Montserrat', sans-serif;
+        }
+  </style>
+
+</head>
+
+  <body STYLE= "BACKGROUND-ATTACHMENT:FIXED" BODY BACKGROUND= "images/paws2.jpg">
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LPM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item active" >
+            <a class="nav-link">Usuario</a>
+              <ul class="submenu">
+                <li><a class="nav-link" href="cliente.html">Cliente</a></li>
+                <li><a class="nav-link" href="trabajador.html">Trabajor</a></li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<br>
+<!--Cuerpo-->
+<section>
+                        <form role="form" class="form-horizontal" action="_POST">
+                          <div class="form-group">
+                            <label for="user" class="control-label col-xs-3">Tipo de usuario a registrar</label>
+                            <select class="form-control">
+                              <option>Cliente</option>
+                              <option>Trabajador</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="username" class="control-label col-xs-3">Nombre completo</label>
+                            <div class="col-xs-9"><input id="nombre" type="text" class="form-control" placeholder = "Nombre ApPaterno ApMaterno"></div>
+                          </div>
+                          <div class="form-group">
+                            <label for="email" class="control-label col-xs-3">E-mail</label>
+                            <div class="col-xs-9"><input id="email" type="text" class="form-control" placeholder = "name@domain.com"></div>
+                          </div>
+                          <div class="form-group">
+                            <label for="telefono" class="control-label col-xs-3">Teléfono</label>
+                            <div class="col-xs-9"><input id="telefono" type="text" class="form-control" placeholder = "(##) ##-##-##-##"></div>
+                          </div>
+                          <div class="form-group">
+                            <label for="direccion" class="control-label col-xs-3">Dirección</label>
+                            <div class="col-xs-9"><textarea id="detalle" class="form-control" rows="5"></textarea></div>
+                          </div>
+                          <div class="form-group">
+                            <center>
+        		                   <input type="submit" class="btn btn-primary btn-lg" value="Registrar">
+        		                   <input type="reset" class="btn btn-primary btn-lg" value="Reestabler">
+                               <form action="contacto.html">
+                               <input class="btn btn-primary" type="submit" value= "Nuevo">
+                                  </form>
+        	                 </center>
+                         </div>
+                       </form>
+<!-- /.container -->
+<br>
+<br>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; LPM</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

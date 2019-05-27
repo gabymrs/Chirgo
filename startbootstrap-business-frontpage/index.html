@@ -8,16 +8,22 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>El Chirgo</title>
+  <title>Trabajador</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel-"stylesheet" href="business-frontpage.css">
 
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+   <style>
+        h2,address,p,a{
+           font-family: 'Montserrat', sans-serif;
+        }
+  </style>
 
 </head>
 
@@ -34,59 +40,39 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Consulta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Alta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Baja</a>
+          <li class="nav-item active" >
+            <a class="nav-link">Iniciar sesión</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Header -->
-  <header class="bg-primary py-5 mb-9">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-          <h1 class="display-4 text-white-1 mt-5 mb-2">El Chirgo</h1><br>
-          <h2>Centro Médico Veterinario</h2>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Page Content -->
-
-<section class="page-section cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-9 mb-5 col-centrada">
-        <div class="card h-100">
-          <div class="cta-inner text-center rounded">
-            <h1 class="display-4 text-white-1 mt-1 mb-1">Bienvenido</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-    </div>
-  </section>
+<br>
+<!--Cuerpo-->
+<div class="container">
+  <form class="" action="principal.html" method="post"><br>
+    <h2 align="center">Inicio de sesión</h2><br>
+        <input type="text" placeholder="&#128054; Trabajador" name="Trabajador">
+        <input type="password" placeholder="&#128273; Contraseña" name="clave">
+        <hr><input type="submit" class="btn btn-primary btn-lg" value="Ingresar">
+        <a class="btn btn-primary btn-lg" href="registroTrabajador.html" style='width:358px; height:48px'>Registrar</a>
+  </form>
 </div>
-  <!-- /.container -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- /.container -->
+<br>
+<br>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; LPM</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

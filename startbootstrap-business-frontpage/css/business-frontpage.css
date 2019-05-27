@@ -170,3 +170,7 @@ input{
     float: none;
     margin: 0 auto;
 }
+
+.table-weight {
+  max-width: 700px;
+}

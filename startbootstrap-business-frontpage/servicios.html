@@ -72,40 +72,45 @@
 
   <!-- Page Content -->
     <br>
-    <div class="container">
+    <center>
+    <div class="container" >
         <h1 class="display-4 text-white-1 mt-3 mb-2 text-center">Servicios</h1>
         <br>
           <div class="table-responsive">
-            <table class="table">
+            <table class="table table-weight" >
               <thead>
-                <tr align="center">
+                <tr align="center" bgcolor=F7F7F7>
                   <th></th>
                   <th>#</th>
                   <th>Lastname</th>
-                  <th>Age</th>
-                  <th>City</th>
-                  <th>Country</th>
                 </tr>
               </thead>
               <form action="../../form-result.php" target="_blank">
-              <tbody>
+              <tbody bgcolor=F9F9F9>
+                <tr aling="center">
+                  <TD><INPUT TYPE=CHECKBOX NAME=caja></TD>
+                  <td align="center"><h4 class="card-title text-center">Hospedaje</h4></td>
+                  <td align="center"><img src="images/cantando.jpg" height="200"></td>
+                </tr>
                 <tr>
                   <TD><INPUT TYPE=CHECKBOX NAME=caja></TD>
-                  <td align="center">Anna</td>
-                  <td align="center">Pitt</td>
-                  <td align="center">35</td>
-                  <td align="center">New York</td>
-                  <td align="center">USA</td>
+                  <td align="center"><h4 class="card-title text-center">Estética Canina</h4></td>
+                  <td align="center"><img src="images/rulo.jpg" height="200"></td>
+                </tr>
+                <tr>
+                  <TD><INPUT TYPE=CHECKBOX NAME=caja></TD>
+                  <td align="center"><h4 class="card-title text-center">Veterinaria</h4></td>
+                  <td align="center"><img src="images/veterinario.jpg" height="200"></td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-
+      </center>
 	<center>
-
-      <p align="center"><input type="submit" class="btn btn-primary btn-lg" value="Agregar" style='width:150px; height:48px'>
+        <p align="center">
         <input type="reset" class="btn btn-primary btn-lg" value="Reestabler" style='width:150px; height:48px'>
+        <input type="submit" class="btn btn-primary btn-lg" value="Agregar" style='width:150px; height:48px'>
         </form>
 	</center>
 

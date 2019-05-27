@@ -97,20 +97,19 @@ galeria {
 }
 /*Section */
 .page-section{
-  margin-top:2rem;
-  margin-bottom:2rem;
-
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 
 .cta{
   padding-top:3rem;
-  padding-bottom:3rem;
+  padding-bottom:1rem;
   background-color:rgba(247,79,101,1)
   }
 
   .cta .cta-inner{
   position:relative;
-  padding:4rem;
+  padding:1rem;
   margin:.8rem;
   background-color:rgba(255,255,255,1)
   }

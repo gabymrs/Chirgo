@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Cliente</title>
+  <title>Registro Cliente</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
           <li class="nav-item active" >
             <a class="nav-link">Usuario</a>
               <ul class="submenu">
-                <li><a class="nav-link active" href="cliente.html">Cliente</a></li>
+                <li><a class="nav-link" href="cliente.html">Cliente</a></li>
                 <li><a class="nav-link" href="trabajador.html">Trabajor</a></li>
               </ul>
           </li>
@@ -61,18 +61,48 @@
   </nav>
 <br>
 <!--Cuerpo-->
-<div class="container">
-  <form class="" action="Servicios.html" method="post">
-    <h2 align="center">Inicio de sesión</h2>
-    <h2 align="center">Cliente</h2>
-        <input type="text" placeholder="&#128054; Cliente" name="cliente">
-        <input type="password" placeholder="&#128273; Contraseña" name="clave">
-        <hr><input type="submit" class="btn btn-primary btn-lg" value="Ingresar">
-        <a class="btn btn-primary btn-lg" href="registroCliente.html" style='width:358px; height:48px'>Registrar</a>
+<section>
 
-  </form>
-</div>
+                         <form action="registro.php" method="POST">
 
+                           <h2 align="center">Registro de Cliente</h2>
+                            <p align="center"><label>Nombre:
+                                <input type = "text" name = "nombre" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Telefono:
+                              <input type = "text" name = "telefono" width="180"/>
+                            </label>
+                            </p>
+
+                            <p align="center"><label>Direccion:
+                              <input type="text" name = "direccion" width="180"/>
+                              </label>
+                            </p>
+                            <h2 align="center">Registro de Mascota</h2>
+                            <p align="center"><label>Nombre de la mascota:
+                              <input type="text" name = "nmascota" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Raza
+                              <input type="text" name = "raza" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Talla
+                              <input type="text" name = "talla" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Peso
+                              <input type="text" name = "peso" width="180"/>
+                              </label>
+                            </p>
+
+
+                            <center>
+                            <button type="submit">Registrar</button>
+                            <button type="reset" value="reestablecer">Reestablecer</button>
+                          </center>
+                       </form>
 <!-- /.container -->
 <br>
 <br>

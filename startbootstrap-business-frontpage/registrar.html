@@ -62,39 +62,46 @@
 <br>
 <!--Cuerpo-->
 <section>
-                        <form role="form" class="form-horizontal" action="_POST">
-                          <div class="form-group">
-                            <label for="user" class="control-label col-xs-3">Tipo de usuario a registrar</label>
-                            <select class="form-control">
-                              <option>Cliente</option>
-                              <option>Trabajador</option>
-                            </select>
-                          </div>
-                          <div class="form-group">
-                            <label for="username" class="control-label col-xs-3">Nombre completo</label>
-                            <div class="col-xs-9"><input id="nombre" type="text" class="form-control" placeholder = "Nombre(s) ApPaterno ApMaterno"></div>
-                          </div>
-                          <div class="form-group">
-                            <label for="email" class="control-label col-xs-3">E-mail</label>
-                            <div class="col-xs-9"><input id="email" type="text" class="form-control" placeholder = "name@domain.com"></div>
-                          </div>
-                          <div class="form-group">
-                            <label for="telefono" class="control-label col-xs-3">Teléfono</label>
-                            <div class="col-xs-9"><input id="telefono" type="text" class="form-control" placeholder = "(##) ##-##-##-##"></div>
-                          </div>
-                          <div class="form-group">
-                            <label for="direccion" class="control-label col-xs-3">Dirección</label>
-                            <div class="col-xs-9"><textarea id="detalle" class="form-control" rows="5"></textarea></div>
-                          </div>
-                          <div class="form-group">
+
+                         <form action="registro.php" method="POST">
+
+                           <h2 align="center">Registro de Cliente</h2>
+                            <p align="center"><label>Nombre:
+                                <input type = "text" name = "nombre" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Telefono:
+                              <input type = "text" name = "telefono" width="180"/>
+                            </label>
+                            </p>
+
+                            <p align="center"><label>Direccion:
+                              <input type="text" name = "direccion" width="180"/>
+                              </label>
+                            </p>
+                            <h2 align="center">Registro de Mascota</h2>
+                            <p align="center"><label>Nombre de la mascota:
+                              <input type="text" name = "nmascota" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Raza
+                              <input type="text" name = "raza" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Talla
+                              <input type="text" name = "talla" width="180"/>
+                              </label>
+                            </p>
+                            <p align="center"><label>Peso
+                              <input type="text" name = "peso" width="180"/>
+                              </label>
+                            </p>
+
+
                             <center>
-        		                   <input type="submit" class="btn btn-primary btn-lg" value="Registrar">
-        		                   <input type="reset" class="btn btn-primary btn-lg" value="Reestabler">
-                               <form action="contacto.html">
-                               <input class="btn btn-primary" type="submit" value= "Nuevo">
-                                  </form>
-        	                 </center>
-                         </div>
+                            <button type="submit">Registrar</button>
+                            <button type="reset" value="reestablecer">Reestablecer</button>
+                          </center>
                        </form>
 <!-- /.container -->
 <br>
